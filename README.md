@@ -121,20 +121,47 @@ Proof of each deployment lives under **`docs/screenshots/`**:
 | [2-separate-ec2](docs/screenshots/2-separate-ec2/) | Two EC2 instances, backend `:5000`, frontend with `BACKEND_URL`, form success |
 | [3-docker-ecs-ecr](docs/screenshots/3-docker-ecs-ecr/) | ECR repos, task definitions, ECS cluster/service, VPC/subnets, ALB, running app |
 
+### Full Submitted Screenshot Gallery
+
+![Screenshot 01](docs/screenshots/readme-gallery/01.png)
+![Screenshot 02](docs/screenshots/readme-gallery/02.png)
+![Screenshot 03](docs/screenshots/readme-gallery/03.png)
+![Screenshot 04](docs/screenshots/readme-gallery/04.png)
+![Screenshot 05](docs/screenshots/readme-gallery/05.png)
+![Screenshot 06](docs/screenshots/readme-gallery/06.png)
+![Screenshot 07](docs/screenshots/readme-gallery/07.png)
+![Screenshot 08](docs/screenshots/readme-gallery/08.png)
+![Screenshot 09](docs/screenshots/readme-gallery/09.png)
+![Screenshot 10](docs/screenshots/readme-gallery/10.png)
+![Screenshot 11](docs/screenshots/readme-gallery/11.png)
+![Screenshot 12](docs/screenshots/readme-gallery/12.png)
+![Screenshot 13](docs/screenshots/readme-gallery/13.png)
+
 ### 1) Single EC2
 
 ![Single EC2 Setup](docs/screenshots/1-single-ec2/01-setup-tools.png)
 ![Single EC2 Frontend Running](docs/screenshots/1-single-ec2/02-frontend-running-port3000.png)
+![Single EC2 Shell Session](docs/screenshots/1-single-ec2/03-ec2-shell-session.png)
+![Single EC2 Git Identity Fix](docs/screenshots/1-single-ec2/04-git-init-identity-fix.png)
+![Single EC2 Backend Pip Install](docs/screenshots/1-single-ec2/05-backend-pip-run.png)
+![Single EC2 Git Push](docs/screenshots/1-single-ec2/06-git-push-main.png)
 
 ### 2) Separate EC2
 
 ![Separate EC2 Frontend Init](docs/screenshots/2-separate-ec2/01-frontend-npm-init.png)
 ![Separate EC2 Frontend Install](docs/screenshots/2-separate-ec2/02-frontend-npm-install.png)
+![Separate EC2 Frontend Running](docs/screenshots/2-separate-ec2/03-frontend-terminal-running.png)
+![Separate EC2 Frontend Terminal](docs/screenshots/2-separate-ec2/04-frontend-terminal.png)
 
 ### 3) Docker + ECR + ECS + VPC
 
 ![ECS Cluster List](docs/screenshots/3-docker-ecs-ecr/01-ecs-clusters-list.png)
 ![ECS Services Overview](docs/screenshots/3-docker-ecs-ecr/02-ecs-cluster-overview-services.png)
+![ECS Frontend Service Health](docs/screenshots/3-docker-ecs-ecr/03-ecs-frontend-service-health.png)
+![ECS Shell Instance](docs/screenshots/3-docker-ecs-ecr/04-ecs-shell-instance.png)
+![ECS Terminal History](docs/screenshots/3-docker-ecs-ecr/05-ecs-terminal-history.png)
+![ECS Flask Backend Service Health](docs/screenshots/3-docker-ecs-ecr/06-ecs-flask-backend-service-health.png)
+![GitHub README Preview](docs/screenshots/3-docker-ecs-ecr/07-github-readme-preview.png)
 
 ---
 
