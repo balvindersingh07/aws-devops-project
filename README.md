@@ -7,17 +7,21 @@ Full-stack app with a **Flask** backend and **Express (EJS)** frontend, deployed
 | Backend | Flask + Flask-CORS | `5000` |
 | Frontend | Express + EJS + Axios | `3000` |
 
+## Live Application URL
+
+- **Single EC2 Live App:** [http://3.7.59.81:3000](http://3.7.59.81:3000)
+
 ---
 
 ## Submission (for evaluator / chat)
 
-Copy this block when submitting (replace URLs with your live endpoints):
+Copy this block when submitting (replace remaining placeholders with your live endpoints):
 
 ```
 GitHub Repository: https://github.com/balvindersingh07/aws-devops-project
 
 Deployed Application URLs:
-1. Single EC2:        http://YOUR_SINGLE_EC2_PUBLIC_IP:3000
+1. Single EC2:        http://3.7.59.81:3000
 2. Separate EC2:      http://YOUR_FRONTEND_EC2_PUBLIC_IP:3000
    (Backend API):    http://YOUR_BACKEND_EC2_PUBLIC_IP:5000
 3. Docker (ECS):      http://YOUR_ALB_OR_SERVICE_URL
@@ -117,7 +121,20 @@ Proof of each deployment lives under **`docs/screenshots/`**:
 | [2-separate-ec2](docs/screenshots/2-separate-ec2/) | Two EC2 instances, backend `:5000`, frontend with `BACKEND_URL`, form success |
 | [3-docker-ecs-ecr](docs/screenshots/3-docker-ecs-ecr/) | ECR repos, task definitions, ECS cluster/service, VPC/subnets, ALB, running app |
 
-Add your `.png` / `.jpg` files to these folders, then commit and push.
+### 1) Single EC2
+
+![Single EC2 Setup](docs/screenshots/1-single-ec2/01-setup-tools.png)
+![Single EC2 Frontend Running](docs/screenshots/1-single-ec2/02-frontend-running-port3000.png)
+
+### 2) Separate EC2
+
+![Separate EC2 Frontend Init](docs/screenshots/2-separate-ec2/01-frontend-npm-init.png)
+![Separate EC2 Frontend Install](docs/screenshots/2-separate-ec2/02-frontend-npm-install.png)
+
+### 3) Docker + ECR + ECS + VPC
+
+![ECS Cluster List](docs/screenshots/3-docker-ecs-ecr/01-ecs-clusters-list.png)
+![ECS Services Overview](docs/screenshots/3-docker-ecs-ecr/02-ecs-cluster-overview-services.png)
 
 ---
 

@@ -10,7 +10,7 @@ Paste this as your **first message** when submitting (fill in your live URLs):
 
 | Deployment | URL |
 |------------|-----|
-| 1. Single EC2 | http://REPLACE_SINGLE_EC2_IP:3000 |
+| 1. Single EC2 | http://3.7.59.81:3000 |
 | 2. Separate EC2 (Frontend) | http://REPLACE_FRONTEND_EC2_IP:3000 |
 | 2. Separate EC2 (Backend API) | http://REPLACE_BACKEND_EC2_IP:5000 |
 | 3. Docker (ECS + ALB) | http://REPLACE_ALB_DNS |
