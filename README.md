@@ -143,4 +143,4 @@ Restrict `0.0.0.0/0` in production; fine for lab demos.
 
 ## Author
 
-**Balvinder Singh** — [GitHub](https://github.com/balvindersingh07/aws-devops-project)
+**Balvinder Singh Soni** — [GitHub](https://github.com/balvindersingh07/aws-devops-project)
